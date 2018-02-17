@@ -2,7 +2,7 @@
 % Please edit documentation in R/notify_ggplot.R
 \name{notify_ggplot}
 \alias{notify_ggplot}
-\title{Send a ggplot to LINE}
+\title{Send a ggplot object to LINE}
 \usage{
 notify_ggplot(message = "", token = Sys.getenv("LINE_API_TOKEN"),
   plot = last_plot(), path = NULL, scale = 1, width = par("din")[1],
@@ -38,7 +38,7 @@ than 50x50 inches, to prevent the common error of specifying dimensions in pixel
 \code{httr} response object (invisibly)
 }
 \description{
-Send a ggplot to LINE
+Send a ggplot object to LINE
 }
 \examples{
 \dontrun{

@@ -29,7 +29,7 @@ notify_msg("hello world")
 plot(iris)
 notify_plot("Plotting the Iris")
 
-# send a ggplot
+# send a ggplot object
 library(ggplot2)
 data(iris)
 p <- ggplot(iris, aes(x = Sepal.Width, y = Sepal.Length)) +
