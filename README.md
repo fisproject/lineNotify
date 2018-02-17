@@ -1,7 +1,7 @@
 lineNotify
 ==========
 
-`lineNotify` - a package to send message to LINE using [Line Notify](https://notify-bot.line.me)
+`lineNotify` - a package to send message to LINE using [LINE Notify](https://notify-bot.line.me)
 
 ### Overview
 
