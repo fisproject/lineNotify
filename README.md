@@ -17,10 +17,12 @@ devtools::install_github("fisproject/lineNotify")
 
 ### Usage
 
+- Issue a personal access token from My Page of [LINE Notify](https://notify-bot.line.me)
+
 ``` r
 library(lineNotify)
 
-Sys.setenv(LINE_API_TOKEN="Your-LINE-Notify-API-Token")
+Sys.setenv(LINE_API_TOKEN="Your-Personal-Access-Token")
 
 # send a message
 notify_msg("hello world")

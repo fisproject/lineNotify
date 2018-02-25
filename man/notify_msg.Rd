@@ -9,7 +9,7 @@ notify_msg(message, token = Sys.getenv("LINE_API_TOKEN"))
 \arguments{
 \item{message}{message (chr)}
 
-\item{token}{the LINE Notify full API token (chr)}
+\item{token}{the LINE Notify personal access token (chr)}
 }
 \value{
 \code{httr} response object (invisibly)

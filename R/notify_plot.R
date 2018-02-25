@@ -1,7 +1,7 @@
 #' Send a plot to LINE
 #'
 #' @param message message (chr)
-#' @param token the LINE Notify full API token (chr)
+#' @param token the LINE Notify personal access token (chr)
 #' @param file prefix for filenames
 #' @return \code{httr} response object (invisibly)
 #'

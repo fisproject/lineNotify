@@ -15,7 +15,7 @@ rand_strings <- function(len = 16) {
 #' Send a ggplot object to LINE
 #'
 #' @param message message (chr)
-#' @param token the LINE Notify full API token (chr)
+#' @param token the LINE Notify personal access token (chr)
 #' @param plot ggplot object to save, defaults to last plot displayed
 #' @param path path to save plot. (chr)
 #' @param scale scaling factor

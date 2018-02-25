@@ -12,7 +12,7 @@ notify_ggplot(message = "", token = Sys.getenv("LINE_API_TOKEN"),
 \arguments{
 \item{message}{message (chr)}
 
-\item{token}{the LINE Notify full API token (chr)}
+\item{token}{the LINE Notify personal access token (chr)}
 
 \item{plot}{ggplot object to save, defaults to last plot displayed}
 

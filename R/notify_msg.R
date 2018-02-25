@@ -1,7 +1,7 @@
 #' Send a message to LINE
 #'
 #' @param message message (chr)
-#' @param token the LINE Notify full API token (chr)
+#' @param token the LINE Notify personal access token (chr)
 #' @return \code{httr} response object (invisibly)
 #'
 #' @importFrom httr POST
